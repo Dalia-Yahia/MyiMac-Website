@@ -1,0 +1,125 @@
+/* start global */
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px; /* the standered width of large screen */
+    margin: auto; /*center the content of all page*/
+}
+
+/* end global*/
+.testing-info {
+    font-size: 11px;
+    line-height: 1.36364;
+    font-weight: 400;
+    letter-spacing: -.008em;
+    color: #888;
+    padding-bottom: 0.8em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.buying-info {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1.42861;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    border-bottom: 1px solid #d6d6d6;
+    padding-top: 4px;
+    padding-bottom: 56px;
+    text-align: center;
+}
+
+.delivery,
+.financing,
+.chatting,
+.personal-setup {
+    width: 25%;
+}
+
+.compare-models {
+     font-size: 17px;
+    line-height: 1.52947;
+    font-weight: 400;
+    letter-spacing: -.021em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    direction: rtl;
+    padding-top: 60px;
+    text-align: center;
+  }
+
+  .models-prices {
+      display: flex;
+      flex-wrap: nowrap;
+  }
+
+  .accessories-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+  }
+
+  .accessories-image {
+    transform: translate3d(0px, 36.654px, 0px);
+  }
+
+  .design-intro {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+  }
+
+  .design-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 692px;
+    display: flex;
+    flex-wrap: nowrap;
+    }
+
+    .design-images {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%
+    }
+
+    .design-img1 {
+        width: 72%;
+    }
+
+    .design-img2 {
+        width: 25%
+    }
+
+    .design-img3 {
+        width: 30%;
+    }
+
+    .design-img4 {
+        width: 70%;
+    }
+   
+    .connectivity-images {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap
+    }
+    
+    .connectivity-image1,
+    .connectivity-image2 {
+        width: 50%;
+    }
+
+    .connectivity-image2 {
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%
+    }
